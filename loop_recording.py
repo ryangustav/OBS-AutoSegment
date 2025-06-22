@@ -12,7 +12,7 @@ start_stop_button = None
 videos_gravados = 0
 
 def script_description():
-    return "Salva e reinicia a gravação automaticamente a cada X minutos. Inclui contador e atalho para a pasta de gravação."
+    return "Automatically saves and restarts recording every X minutes. Includes counter and shortcut to recording folder."
 
 def script_properties():
     global start_stop_button
